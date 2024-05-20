@@ -3,59 +3,121 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="./assets/images/favicon-32x32.png"
     />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
 
     <title>Frontend Mentor | Social proof section</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
-    10,000+ of our users love our products.
+    <div id="bg-top"></div>
+    <div id="bg-bottom"></div>
 
-    We only provide great products combined with excellent customer service.
-    See what our satisfied customers are saying about our services.
-    
-    Rated 5 Stars in Reviews
-    Rated 5 Stars in Report Guru
-    Rated 5 Stars in BestTech
-    
-    Colton Smith 
-    Verified Buyer
-    "We needed the same printed design as the one we had ordered a week prior.
-    Not only did they find the original order, but we also received it in time.
-    Excellent!"
-    
-    Irene Roberts 
-    Verified Buyer
-    "Customer service is always excellent and very quick turn around. Completely
-    delighted with the simplicity of the purchase and the speed of delivery."
-    
-    Anne Wallace 
-    Verified Buyer
-    "Put an order with this company and can only praise them for the very high
-    standard. Will definitely use them again and recommend them to everyone!"
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+    <div id="container">
+      <div id="content-container">
+        <div id="header-container">
+          <div id="info-container">
+            <h1>10,000+ of our users love our products.</h1>
+            <p>
+              We only provide great products combined with excellent customer
+              service. See what our satisfied customers are saying about our
+              services.
+            </p>
+          </div>
+          <div id="rating-section-container">
+            <div class="rating-container">
+              <div id="stars-container">
+                <img src="./assets/images/icon-star.svg" alt="star" />
+                <img src="./assets/images/icon-star.svg" alt="star" />
+                <img src="./assets/images/icon-star.svg" alt="star" />
+                <img src="./assets/images/icon-star.svg" alt="star" />
+                <img src="./assets/images/icon-star.svg" alt="star" />
+              </div>
+              <p>Rated 5 Stars in Reviews</p>
+            </div>
+            <div class="rating-container shift-right-small">
+              <div id="stars-container">
+                <img src="./assets/images/icon-star.svg" alt="star" />
+                <img src="./assets/images/icon-star.svg" alt="star" />
+                <img src="./assets/images/icon-star.svg" alt="star" />
+                <img src="./assets/images/icon-star.svg" alt="star" />
+                <img src="./assets/images/icon-star.svg" alt="star" />
+              </div>
+              <p>Rated 5 Stars in Report Guru</p>
+            </div>
+            <div class="rating-container shift-right-medium">
+              <div id="stars-container">
+                <img src="./assets/images/icon-star.svg" alt="star" />
+                <img src="./assets/images/icon-star.svg" alt="star" />
+                <img src="./assets/images/icon-star.svg" alt="star" />
+                <img src="./assets/images/icon-star.svg" alt="star" />
+                <img src="./assets/images/icon-star.svg" alt="star" />
+              </div>
+              <p>Rated 5 Stars in BestTech</p>
+            </div>
+          </div>
+        </div>
+        <div id="testimonials-section-container">
+          <div class="testimonials-container">
+            <div class="testimonial">
+              <div class="author-section">
+                <div class="avatar-image">
+                  <img src="./assets/images/image-colton.jpg" alt="avatar" />
+                </div>
+                <div class="author-identity">
+                  <span>Colton Smith</span>
+                  <span class="pink">Verified Buyer</span>
+                </div>
+              </div>
+              <p>
+                "We needed the same printed design as the one we had ordered a
+                week prior. Not only did they find the original order, but we
+                also received it in time. Excellent!"
+              </p>
+            </div>
+          </div>
+          <div class="testimonials-container shift-margin-top-20">
+            <div class="testimonial">
+              <div class="author-section">
+                <div class="avatar-image">
+                  <img src="./assets/images/image-irene.jpg" alt="avatar" />
+                </div>
+                <div class="author-identity">
+                  <span>Irene Roberts</span>
+                  <span class="pink">Verified Buyer</span>
+                </div>
+              </div>
+              <p>
+                "Customer service is always excellent and very quick turn
+                around. Completely delighted with the simplicity of the purchase
+                and the speed of delivery."
+              </p>
+            </div>
+          </div>
+          <div class="testimonials-container shift-margin-top-40">
+            <div class="testimonial">
+              <div class="author-section">
+                <div class="avatar-image">
+                  <img src="./assets/images/image-anne.jpg" alt="avatar" />
+                </div>
+                <div class="author-identity">
+                  <span>Anne Wallace</span>
+                  <span class="pink">Verified Buyer</span>
+                </div>
+              </div>
+              <p>
+                "Put an order with this company and can only praise them for the
+                very high standard. Will definitely use them again and recommend
+                them to everyone!"
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
