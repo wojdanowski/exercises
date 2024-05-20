@@ -9,6 +9,11 @@ body p {
   font-size: 18px;
 }
 
+@font-face {
+  font-family: "Figtree";
+  src: local("./assets/fonts/Figtree-Italic-VariableFont_wght.ttf");
+}
+
 .container {
   position: absolute;
   top: 50%;
